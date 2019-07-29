@@ -39,4 +39,9 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  // Tooltips
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
 })(jQuery); // End of use strict
